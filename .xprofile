@@ -1,9 +1,17 @@
+# Wallpaper
 nitrogen --restore &
-picom &
-xrandr -s 1920x1080
 
-volumeicon &
-udiskie --tray &
+# Composer
+picom &
+
+# Automount Devices
+udiskie -t &
+
+# Bluetooth tray
 blueman-applet &
+
+# Network tray
 nm-applet &
+
+# Battery Icon tray
 cbatticon -u 5 &
