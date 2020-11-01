@@ -1,0 +1,26 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --git-dir
+Open repository: /home/slob/personalStuff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/slob/personalStuff/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.config/qtile/config.py
+> git ls-files --stage -- /home/slob/personalStuff/.config/qtile/config.py
+> git cat-file -s 4f9b6c928c510ad42d59770325362c95a2abfd30
+> git check-ignore -v -z --stdin
+> git show --textconv :.config/qtile/config.py
+> git ls-files --stage -- /home/slob/personalStuff/.config/qtile/config.py
+> git cat-file -s 4f9b6c928c510ad42d59770325362c95a2abfd30
+> git show --textconv :.config/qtile/config.py
+> git ls-files --stage -- /home/slob/personalStuff/.config/qtile/config.py
+> git cat-file -s 4f9b6c928c510ad42d59770325362c95a2abfd30
+> git show --textconv :.config/qtile/config.py
+> git ls-files --stage -- /home/slob/personalStuff/.config/qtile/config.py
+> git cat-file -s 4f9b6c928c510ad42d59770325362c95a2abfd30

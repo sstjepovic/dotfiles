@@ -1,0 +1,10 @@
+[2020-10-18 10:45:10.343] [sharedprocess] [info] main {"machineId":"4acaa616635d7d28b336954f6258035278f4e169b6f214017a321a4a5807e313","windowId":2}
+[2020-10-18 10:45:50.358] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-10-18 10:46:01.995] [sharedprocess] [info] Uninstalling extension: jaspernorth.vscode-pigments
+[2020-10-18 10:46:02.003] [sharedprocess] [info] Successfully uninstalled extension: jaspernorth.vscode-pigments
+[2020-10-18 10:46:19.828] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2020-10-18 10:46:20.267] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight undefined
+[2020-10-18 10:46:20.452] [sharedprocess] [info] Extracted extension to /home/slob/.vscode-oss/extensions/.naumovs.color-highlight-2.3.0: naumovs.color-highlight
+[2020-10-18 10:46:20.452] [sharedprocess] [info] Renamed to /home/slob/.vscode-oss/extensions/naumovs.color-highlight-2.3.0
+[2020-10-18 10:46:20.453] [sharedprocess] [info] Installation completed. naumovs.color-highlight
+[2020-10-18 10:46:20.457] [sharedprocess] [info] Extensions installed successfully: naumovs.color-highlight

@@ -1,0 +1,12 @@
+#History lists
+
+[shortcuts]
+".[path](null)"
+"Home[path]/home/slob"
+"Desktop[path]/home/slob/Desktop"
+"Collections[path]/home/slob/.local/share/geeqie/collections"
+
+[path_list]
+"/home/slob/projects/playground/prueba/img"
+
+#end
