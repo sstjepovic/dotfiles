@@ -71,13 +71,39 @@ Pavucontrol is the current standard for managing Pulseaudio. It can be launched 
 Managing external storage devices with Arch is not an easy task, to make this a more user friendly experience i use **Udiskie** wich will automount external storage devices and add an icon to our systray:
 
 ```bash
-sudo pacman -s udiskie
+sudo pacman -S udiskie
 ```
 
 after you are done with the installation, add the following line to your ~.xprofile.
 
 ```bash
 udiskie -t &
+```
+
+### Bluetooth
+
+The easiest way i've found to pair bluetooth devices with the system is using the Blueman, however you'll need to install the protocol stack plus the bluetoothctl util first:
+
+```bash
+sudo pacman -S bluez bluez-utils
+```
+
+After the installation is complete you'll need to enable the bluetooth service:
+
+```bash
+sudo systemctl enable bluetooth.service
+```
+
+This will give us access to the bluetoothctl command, however, manually pairing devices can be quite tedious, i personally like to use the Blueman bluetooth manager that will allow us to automatically connect to any device within range from a front-end interface.
+
+```bash
+sudo pacman -S blueman
+```
+
+Remember to enable the blueman applet on your ~.xprofile adding the following line:
+
+```bash
+blueman-applet &
 ```
 
 ### Xprofile
