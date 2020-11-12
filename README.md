@@ -4,7 +4,7 @@
 
 ***Language***
 - [🇪🇸 Español](./README.es.md)
-- 🇺🇸English
+- 🇺 🇸English
 
 # Table of Contents
 
