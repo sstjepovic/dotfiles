@@ -12,6 +12,9 @@
   - [USB support](#usb-support)
   - [Bluetooth](#bluetooth)
   - [Xprofile](#xprofile)
+- [Software](#software)
+  - [Core](#core)
+  - [Apps](#apps)
 
 ## Overview
 
@@ -138,7 +141,7 @@ Will add an interactive battery icon to our system tray every time we log in.
 ### Core
 
 
-| Software                                                                                            | Utility                          |
+| Name                                                                                            | Description                          |
 | --------------------------------------------------------------------------------------------------- | -------------------------------- |
 | **[networkmanager](https://wiki.archlinux.org/index.php/NetworkManager)**                           | Self explanatory                 |
 | **[network-manager-applet](https://wiki.archlinux.org/index.php/NetworkManager#nm-applet)**         | *NetworkManager* systray         |
@@ -152,7 +155,7 @@ Will add an interactive battery icon to our system tray every time we log in.
 ### Apps
 
 
-| Software                                                              | Utility                  |
+| Name                                                                  | Description              |
 | --------------------------------------------------------------------- | ------------------------ |
 | **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Terminal emulator        |
 | **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Graphical file manager   |
