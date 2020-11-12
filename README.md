@@ -22,9 +22,7 @@ These are some basic Keybinds.
 | **mod + ctrl + q**   | logout                     |
 | **mod + r**          | launch Rofi                |
 
-Please note that i use Rofi as my app launcher, you'll need it in order to open apps without leaving a console unusable.
-
-You can install Rofi using the following command:
+Please note that i use Rofi as my app launcher, you'll need to install it order to be able to open apps without leaving a console unusable. You can do so by using the following command:
 
 ```bash
 sudo pacman -S Rofi
