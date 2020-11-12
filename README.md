@@ -28,4 +28,22 @@ Please note that i use Rofi as my app launcher, you'll need to install it order 
 sudo pacman -S Rofi
 ```
 
-You can find the full keybind list inside ".config/qtile/config.py" inside the **Keys** Section.
+You can find the full keybind list inside ".config/qtile/config.py" inside the **Keys** array.
+
+## System utilities
+
+This section contains all the basic software that i use. Keep in mind though that the changes made will not be permanent unless we explicitly state them in the [.xprofile](#xprofile) file.
+
+### Xprofile
+
+The xprofile file allows us to to execute commands before the window manager is started.
+
+For example, if we place this line in ~/.xprofile:
+
+```bash
+cbatticon &
+```
+
+It will add an interactive battery icon to our system tray every time we log in.
+
+
