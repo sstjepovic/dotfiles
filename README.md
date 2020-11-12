@@ -34,6 +34,26 @@ You can find the full keybind list inside ".config/qtile/config.py" inside the *
 
 This section contains all the basic software that i use. Keep in mind though that the changes made will not be permanent unless we explicitly state them in the [.xprofile](#xprofile) file.
 
+### Wallpaper
+
+To set or change the desktop wallpaper i use a desktop background browser called Nitrogen.
+
+Nitrogen will not work out of the box unless you have a **composer** installed on your system.
+
+As stated previously, I use Picom as my default composer. You can install both Nitrogen and Picom using the following command:
+
+```bash
+sudo pacman -S nitrogen picom
+```
+
+After the installation is complete you can run Nitrogen using Rofi or directly from your terminal.
+
+In order to make the background permanent you'll have to add the following to your ~.xprofile:
+
+```bash
+nitrogen --restore &
+```
+
 ### Xprofile
 
 The xprofile file allows us to to execute commands before the window manager is started.
