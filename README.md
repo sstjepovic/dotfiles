@@ -54,6 +54,30 @@ In order to make the background permanent you'll have to add the following to yo
 nitrogen --restore &
 ```
 
+### Audio
+
+In order to have audio on your system you'll have to install an audio server wich will work as a middle ground between your hardware devices and ALSA (Advanced Linux Sound Architecture). You could also use **alsa-utils**, but personally i prefer Pulseaudio since i find it easier to use.
+
+```bash
+sudo pacman -S pulseaudio pavucontrol
+```
+
+Pavucontrol is the current standard for managing Pulseaudio. It can be launched through the terminal or Rofi 
+
+### USB support
+
+Managing external storage devices with Arch is not an easy task, to make this a more user friendly experience i use **Udiskie** wich will automount external storage devices and add an icon to our systray:
+
+```bash
+sudo pacman -s udiskie
+```
+
+after you are done with the installation, add the following line to your ~.xprofile.
+
+```bash
+udiskie -t &
+```
+
 ### Xprofile
 
 The xprofile file allows us to to execute commands before the window manager is started.
