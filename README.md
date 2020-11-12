@@ -48,6 +48,8 @@ sudo pacman -S nitrogen picom
 
 After the installation is complete you can run Nitrogen using Rofi or directly from your terminal.
 
+![nitrogen](.screenshots/nitrogen.png)
+
 In order to make the background permanent you'll have to add the following to your ~.xprofile:
 
 ```bash
@@ -88,6 +90,6 @@ For example, if we place this line in ~/.xprofile:
 cbatticon &
 ```
 
-It will add an interactive battery icon to our system tray every time we log in.
+Will add an interactive battery icon to our system tray every time we log in.
 
 
