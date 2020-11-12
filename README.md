@@ -2,6 +2,10 @@
 
 ![main](.screenshots/main.png)
 
+***Language***
+- [🇪🇸 Español](./README.es.md)
+- 🇺🇸English
+
 # Table of Contents
 
 - [Overview](#overview)
