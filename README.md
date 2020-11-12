@@ -2,6 +2,17 @@
 
 ![main](.screenshots/main.png)
 
+# Table of Contents
+
+- [Overview](#overview)
+- [Basic Qtile configuration](#basic-qtile-configutarion)
+- [System utilities](#system-utilities)
+  - [Wallpaper](#wallpaper)
+  - [Audio](#audio)
+  - [USB support](#usb-support)
+  - [Bluetooth](#bluetooth)
+  - [Xprofile](#xprofile)
+
 ## Overview
 
 Repository with all my Arch Linux dotfiles and configs. I am currently using **Qtile** as my  default window manager, since I consider it to be easy to set, pleasant to use and easy to program (since it works with Python). Everything else is pretty "standard" on an Arch Linux System: LightDM as the Display Manager, Pulseaudio as the sound server and Picom as the composer.
@@ -122,4 +133,31 @@ cbatticon &
 
 Will add an interactive battery icon to our system tray every time we log in.
 
+## Software
+
+### Core
+
+
+| Software                                                                                            | Utility                          |
+| --------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **[networkmanager](https://wiki.archlinux.org/index.php/NetworkManager)**                           | Self explanatory                 |
+| **[network-manager-applet](https://wiki.archlinux.org/index.php/NetworkManager#nm-applet)**         | *NetworkManager* systray         |
+| **[pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)**                                   | Self explanatory                 |
+| **[pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)**                     | *pulseaudio* GUI                 |
+| **[brightnessctl](https://www.archlinux.org/packages/community/x86_64/brightnessctl/)**             | Laptop screen brightness         |
+| **[udiskie](https://www.archlinux.org/packages/community/any/udiskie/)**                            | Automounter                      |
+| **[cbatticon](https://www.archlinux.org/packages/community/x86_64/cbatticon/)**                     | Battery systray                  |
+| **[volumeicon](https://www.archlinux.org/packages/community/x86_64/volumeicon/)**                   | Volume systray                   |
+
+### Apps
+
+
+| Software                                                              | Utility                  |
+| --------------------------------------------------------------------- | ------------------------ |
+| **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Terminal emulator        |
+| **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Graphical file manager   |
+| **[ranger](https://wiki.archlinux.org/index.php/Ranger)**             | Terminal file manager    |
+| **[neovim](https://wiki.archlinux.org/index.php/Neovim)**             | Terminal based editor    |
+| **[rofi](https://wiki.archlinux.org/index.php/Rofi)**                 | Run Dialog               |
+| **[scrot](https://wiki.archlinux.org/index.php/Screen_capture)**      | Take Screenshot          |
 
