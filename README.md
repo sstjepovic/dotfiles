@@ -94,7 +94,11 @@ After the installation is complete you'll need to enable the bluetooth service:
 sudo systemctl enable bluetooth.service
 ```
 
-This will give us access to the bluetoothctl command, however, manually pairing devices can be quite tedious, i personally like to use the Blueman bluetooth manager that will allow us to automatically connect to any device within range from a front-end interface.
+This will give us access to the bluetoothctl command.
+
+![bluetooth](.screenshots/bluetooth.png)
+
+however, manually pairing devices can be quite tedious, i personally like to use the Blueman bluetooth manager that will allow us to automatically connect to any device within range from a front-end interface.
 
 ```bash
 sudo pacman -S blueman
