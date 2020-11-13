@@ -66,7 +66,7 @@ As stated previously, I use Picom as my default composer. You can install both N
 sudo pacman -S nitrogen picom
 ```
 
-After the installation is complete you can run Nitrogen using Rofi or directly from your terminal.
+After the installation is complete you can run Nitrogen using Rofi or directly from your console.
 
 ![nitrogen](.screenshots/nitrogen.png)
 
@@ -84,7 +84,7 @@ In order to have audio on your system you'll have to install an audio server wic
 sudo pacman -S pulseaudio pavucontrol
 ```
 
-Pavucontrol is the current standard for managing Pulseaudio. It can be launched through the terminal or Rofi 
+Pavucontrol is the current standard for managing Pulseaudio. It can be launched through the console or Rofi 
 
 ### USB support
 
@@ -94,7 +94,7 @@ Managing external storage devices with Arch is not an easy task, to make this a 
 sudo pacman -S udiskie
 ```
 
-after you are done with the installation, add the following line to your ~.xprofile.
+after you are done with the installation, add the following line to your ~.xprofile:
 
 ```bash
 udiskie -t &
