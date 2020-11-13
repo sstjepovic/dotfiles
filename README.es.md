@@ -8,9 +8,9 @@
 
 # Tabla de contenido
 
-- [Introduccion](#introduccion)
-- [Configuracion basica de Qtile](#configuracion-basica-de-qtile)
-- [Utilidades del Sistema](#utilidades-del-sistema)
+- [Introducción](#introducción)
+- [Configuraciíon basica de Qtile](#configuracioón-básica-de-qtile)
+- [Útilidades del Sistema](#útilidades-del-sistema)
   - [Wallpaper](#wallpaper)
   - [Audio](#audio)
   - [Soporte para USB](#soporte-para-usb)
@@ -22,21 +22,21 @@
 
 <hr>
 
-## Introduccion
+## Introducción
 
 Repositorio con todos mis archivos y configuraciones para Arch Linux. Actualmente utilizo **Qtile** como mi window manager por defecto, ya que creo es el mas sencillo de implementar, programar (ya que funciona con Python) y extremadamente facil de usar. Todo lo demas lo encontraras en practicamente cualquier sistema Arch, por ejemplo utilizo: LightDM como mi Display Manager, Pulseaudio como el servidor de sonido y Picom como compositor. 
 
-## Configuracion basica de Qtile
+## Configuración básica de Qtile
 
 Estos son los atajos de teclado mas utilizados  
 
-| Atajo                | Accion                          |
+| Atajo                | Descripción                     |
 | -------------------- | ------------------------------- |
 | **mod + return**     | Lanza una consola               |
 | **mod + k**          | Ventana siguiente               |
 | **mod + j**          | Ventana anterior                |
-| **mod + w**          | Cerrar ventana             	 |
-| **mod + Tab**        | Cambiar disposicion         	 |
+| **mod + w**          | Cerrar ventana               	 |
+| **mod + Tab**        | Cambiar disposicion           	 |
 | **mod + [1234]**     | Ir al espacio de trabajo [1234] |
 | **mod + ctrl + r**   | reiniciar qtile                 |
 | **mod + ctrl + q**   | cerrar sesion                   |
@@ -50,7 +50,7 @@ sudo pacman -S Rofi
 
 Puedes encontrar la lista completa de atajos de teclado en "~/.config/qtile/config.py" dentro del arreglo de **Keys**.
 
-## Utilidades del sistema
+## Útilidades del sistema
 
 Esta seccion contendra todo el Software basico que utilizo. Ten en cuenta que los cambios que realizes no seran permanentes, a menos que los explicites en el archivo [.xprofile](#xprofile).
 
@@ -146,7 +146,7 @@ Añadira un icono de bateria a la bandeja del sistema cada vez que ingresemos
 ### Core
 
 
-| Nombre                                                                                          | Descripcion                          |
+| Nombre                                                                                              | Descripción                      |
 | --------------------------------------------------------------------------------------------------- | -------------------------------- |
 | **[networkmanager](https://wiki.archlinux.org/index.php/NetworkManager)**                           | Self explanatory                 |
 | **[network-manager-applet](https://wiki.archlinux.org/index.php/NetworkManager#nm-applet)**         | *NetworkManager* systray         |
@@ -160,7 +160,7 @@ Añadira un icono de bateria a la bandeja del sistema cada vez que ingresemos
 ### Aplicaciones
 
 
-| Nombre                                                                | Descripcion              |
+| Nombre                                                                | Descripción              |
 | --------------------------------------------------------------------- | ------------------------ |
 | **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Terminal emulator        |
 | **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Graphical file manager   |
