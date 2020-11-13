@@ -2,7 +2,7 @@
 
 ![main](.screenshots/main.png)
 
-***Language***
+***Idioma***
 - Español
 - [English](./README.md)
 
