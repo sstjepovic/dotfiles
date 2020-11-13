@@ -3,8 +3,8 @@
 ![main](.screenshots/main.png)
 
 ***Language***
-- [🇪🇸 Español](./README.es.md)
-- 🇺 🇸English
+- [Español](./README.es.md)
+- English
 
 # Table of Contents
 
@@ -19,6 +19,8 @@
 - [Software](#software)
   - [Core](#core)
   - [Apps](#apps)
+
+<hr>
 
 ## Overview
 
