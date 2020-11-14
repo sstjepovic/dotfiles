@@ -160,12 +160,12 @@ Añadira un icono de bateria a la bandeja del sistema cada vez que ingresemos
 ### Aplicaciones
 
 
-| Nombre                                                                | Descripción              |
-| --------------------------------------------------------------------- | ------------------------ |
-| **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Emulador de Consola     |
-| **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Gestor de archivos grafico |
-| **[ranger](https://wiki.archlinux.org/index.php/Ranger)**             | Gestor de archivos desde Consola    |
-| **[neovim](https://wiki.archlinux.org/index.php/Neovim)**             | Editor de texto basado en Consola    |
-| **[rofi](https://wiki.archlinux.org/index.php/Rofi)**                 | Lanzador de Aplicaciónes               |
-| **[scrot](https://wiki.archlinux.org/index.php/Screen_capture)**      | Capturar pantalla          |
+| Nombre                                                                | Descripción                       |
+| --------------------------------------------------------------------- | --------------------------------- |
+| **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Emulador de Consola               |
+| **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Gestor de archivos grafico        |
+| **[ranger](https://wiki.archlinux.org/index.php/Ranger)**             | Gestor de archivos desde Consola  |
+| **[neovim](https://wiki.archlinux.org/index.php/Neovim)**             | Editor de texto basado en Consola |
+| **[rofi](https://wiki.archlinux.org/index.php/Rofi)**                 | Lanzador de Aplicaciónes          |
+| **[scrot](https://wiki.archlinux.org/index.php/Screen_capture)**      | Capturar pantalla                 |
 
