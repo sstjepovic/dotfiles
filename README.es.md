@@ -2,15 +2,15 @@
 
 ![main](.screenshots/main.png)
 
-***Language***
+***Idioma***
 - Español
 - [English](./README.md)
 
 # Tabla de contenido
 
-- [Introduccion](#introduccion)
-- [Configuracion basica de Qtile](#configuracion-basica-de-qtile)
-- [Utilidades del Sistema](#utilidades-del-sistema)
+- [Introducción](#introducción)
+- [Configuraciíon basica de Qtile](#configuracioón-básica-de-qtile)
+- [Útilidades del Sistema](#útilidades-del-sistema)
   - [Wallpaper](#wallpaper)
   - [Audio](#audio)
   - [Soporte para USB](#soporte-para-usb)
@@ -22,27 +22,27 @@
 
 <hr>
 
-## Introduccion
+## Introducción
 
-Repositorio con todos mis archivos y configuraciones para Arch Linux. Actualmente utilizo **Qtile** como mi window manager por defecto, ya que creo es el mas sencillo de implementar, programar (ya que funciona con Python) y extremadamente facil de usar. Todo lo demas lo encontraras en practicamente cualquier sistema Arch, por ejemplo utilizo: LightDM como mi Display Manager, Pulseaudio como el servidor de sonido y Picom como compositor. 
+Repositorio con todos mis archivos y configuraciones para Arch Linux. Actualmente utilizo **Qtile** como mi window manager por defecto, ya que creo es el mas sencillo de implementar, programar (ya que funciona con Python) y extremadamente fácil de usar. Todo lo demas lo encontraras en practicamente cualquier sistema Arch, por ejemplo utilizo: LightDM como mi Display Manager, Pulseaudio como el servidor de sonido y Picom como compositor. 
 
-## Configuracion basica de Qtile
+## Configuración básica de Qtile
 
 Estos son los atajos de teclado mas utilizados  
 
-| Atajo                | Accion                          |
+| Atajo                | Descripción                     |
 | -------------------- | ------------------------------- |
 | **mod + return**     | Lanza una consola               |
 | **mod + k**          | Ventana siguiente               |
 | **mod + j**          | Ventana anterior                |
-| **mod + w**          | Cerrar ventana             	 |
-| **mod + Tab**        | Cambiar disposicion         	 |
+| **mod + w**          | Cerrar ventana               	 |
+| **mod + Tab**        | Cambiar disposicion           	 |
 | **mod + [1234]**     | Ir al espacio de trabajo [1234] |
 | **mod + ctrl + r**   | reiniciar qtile                 |
 | **mod + ctrl + q**   | cerrar sesion                   |
 | **mod + r**          | Lanzar Rofi                     |
 
-Tener presente que utilizo Rofi como mi launcher de aplicaciones, necesitaras intalarlo para poder abrir aplicaciones sin dejar una consola inutilizable. Puedes instalarlo escribiendo el siguiente comando en tu consola:
+Tener presente que utilizo Rofi como mi launcher de aplicaciones, necesitaras intalarlo para poder abrir aplicaciónes sin dejar una consola inutilizable. Puedes instalarlo escribiendo el siguiente comando en tu consola:
 
 ```bash
 sudo pacman -S Rofi
@@ -50,9 +50,9 @@ sudo pacman -S Rofi
 
 Puedes encontrar la lista completa de atajos de teclado en "~/.config/qtile/config.py" dentro del arreglo de **Keys**.
 
-## Utilidades del sistema
+## Útilidades del sistema
 
-Esta seccion contendra todo el Software basico que utilizo. Ten en cuenta que los cambios que realizes no seran permanentes, a menos que los explicites en el archivo [.xprofile](#xprofile).
+Esta seccion contendrá todo el Software basico que utilizo. Ten en cuenta que los cambios que realizes no seran permanentes, a menos que los explicites en el archivo [.xprofile](#xprofile).
 
 ### Wallpaper
 
@@ -66,11 +66,11 @@ Como dije anteriormente, utilizo Picom como mi comporisor por defecto. Puedes in
 sudo pacman -S nitrogen picom
 ```
 
-Cuando finalize la instalacion puedes iniciar Nitrogen directamente de tu consola o utilizando Rofi.
+Cuando finalize la instalación puedes iniciar Nitrogen directamente de tu consola o utilizando Rofi.
 
 ![nitrogen](.screenshots/nitrogen.png)
 
-Para que el cambio sea permanente, deberas agregar la siguiente linea a tu archivo ~.xprofile.
+Para que el cambio sea permanente, deberas agregar la siguiente línea a tu archivo ~.xprofile.
 
 ```bash
 nitrogen --restore &
@@ -78,23 +78,23 @@ nitrogen --restore &
 
 ### Audio
 
-Para tener audio en el sistema necesitaras instalar un servidor de audio, que servira como un punto medio entre el Hardware y ALSA (Advanced Linux Sound Architecture). Tambien puedes utilizar **alsa-utils**, pero personalmente prefiero utilizar Pulseaudio, porque es mas sencillo de usar.
+Para tener audio en el sistema necesitaras instalar un servidor de audio, que servira como un punto medio entre el Hardware y ALSA (Advanced Linux Sound Architecture). También puedes utilizar **alsa-utils**, pero personalmente prefiero utilizar Pulseaudio, porque es mas sencillo de usar.
 
 ```bash
 sudo pacman -S pulseaudio pavucontrol
 ```
 
-Pavucontrol es el estandar actual para controlar Pulseaudio, puede ser lanzado desde la consola o desde Rofi. 
+Pavucontrol es el estándar actual para controlar Pulseaudio, puede ser lanzado desde la consola o desde Rofi. 
 
 ### Soporte para USB
 
-Gestionar dispositivos de almacenamiento externos con Arch no es una tarea sencilla, para hacer de esta una experiencia mas amigable utilizo **Udiskie** que administrara de manera automatica dispositivos de almacenamiento externos, ademas de agregar un icono interactivo a la bandeja de nuestro sistema:
+Gestionar dispositivos de almacenamiento externos con Arch no es una tarea sencilla, para hacer de esta una experiincia mas amigable utilizo **Udiskie** que administrará de manera automática dispositivos de almacenamiento externos, ademas de agregar un icono interactivo a la bandeja de nuestro sistema:
 
 ```bash
 sudo pacman -S udiskie
 ```
 
-cuando termines de instalar, agrega la siguiente linea a tu archivo ~.xprofile:
+cuando termines de instalar, agrega la siguiente línea a tu archivo ~.xprofile:
 
 ```bash
 udiskie -t &
@@ -102,22 +102,22 @@ udiskie -t &
 
 ### Bluetooth
 
-Blueman, es la manera mas sencilla que he encontrado para parear dispositivos bluetooth con el sistema, Sin embargo, primero necesitaras instalar el protocolo de conexion junto al comando bluetoothctl:
+Blueman, es la manera mas sencilla que he encontrado para parear dispositivos bluetooth con el sistema, Sin embargo, primero necesitaras instalar el protocolo de conexión junto al comando bluetoothctl:
 
 ```bash
 sudo pacman -S bluez bluez-utils
 ```
-Una vez que esten instalados necesitaras habilitar el servicio de bluetooth:
+Una vez que esten instalados necesitarás habilitar el servicio de bluetooth:
 
 ```bash
 sudo systemctl enable bluetooth.service
 ```
 
-Esto nos permitira parear dispositivos con el comando bluetoothctl.
+Esto nos permitirá parear dispositivos con el comando bluetoothctl.
 
 ![bluetooth](.screenshots/bluetooth.png)
 
-Sin embargo, parear dispositivos de forma manual puede resultar tedioso, personalmente prefiero utilizar el gestor de bluetooth "Blueman" que hara la conexion de manera automatica por nosotros.
+Sin embargo, parear dispositivos de forma manual puede resultar tedioso, personalmente prefiero utilizar el gestor de bluetooth "Blueman" que hara la conexion de manera automática por nosotros.
 
 ```bash
 sudo pacman -S blueman
@@ -133,7 +133,7 @@ blueman-applet &
 
 El archivo xprofile nos permite ejecutar comandos antes que inicie el gestor de ventanas (window manager).
 
-Por ejemplo, si escribimos esta linea en ~.xprofile:
+Por ejemplo, si escribimos esta línea en ~.xprofile:
 
 ```bash
 cbatticon &
@@ -146,26 +146,26 @@ Añadira un icono de bateria a la bandeja del sistema cada vez que ingresemos
 ### Core
 
 
-| Nombre                                                                                          | Descripcion                          |
+| Nombre                                                                                              | Descripción                      |
 | --------------------------------------------------------------------------------------------------- | -------------------------------- |
-| **[networkmanager](https://wiki.archlinux.org/index.php/NetworkManager)**                           | Self explanatory                 |
+| **[networkmanager](https://wiki.archlinux.org/index.php/NetworkManager)**                           | Gestor de conexiones de red      |
 | **[network-manager-applet](https://wiki.archlinux.org/index.php/NetworkManager#nm-applet)**         | *NetworkManager* systray         |
-| **[pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)**                                   | Self explanatory                 |
+| **[pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)**                                   | Servidor de audio                |
 | **[pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)**                     | *pulseaudio* GUI                 |
-| **[brightnessctl](https://www.archlinux.org/packages/community/x86_64/brightnessctl/)**             | Laptop screen brightness         |
-| **[udiskie](https://www.archlinux.org/packages/community/any/udiskie/)**                            | Automounter                      |
-| **[cbatticon](https://www.archlinux.org/packages/community/x86_64/cbatticon/)**                     | Battery systray                  |
-| **[volumeicon](https://www.archlinux.org/packages/community/x86_64/volumeicon/)**                   | Volume systray                   |
+| **[brightnessctl](https://www.archlinux.org/packages/community/x86_64/brightnessctl/)**             | Gestor de Brillo para notebooks  |
+| **[udiskie](https://www.archlinux.org/packages/community/any/udiskie/)**                            | Gestor de dispositivos externos  |
+| **[cbatticon](https://www.archlinux.org/packages/community/x86_64/cbatticon/)**                     | Systray de Bateria               |
+| **[volumeicon](https://www.archlinux.org/packages/community/x86_64/volumeicon/)**                   | Systray de Volumen               |
 
 ### Aplicaciones
 
 
-| Nombre                                                                | Descripcion              |
-| --------------------------------------------------------------------- | ------------------------ |
-| **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Terminal emulator        |
-| **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Graphical file manager   |
-| **[ranger](https://wiki.archlinux.org/index.php/Ranger)**             | Terminal file manager    |
-| **[neovim](https://wiki.archlinux.org/index.php/Neovim)**             | Terminal based editor    |
-| **[rofi](https://wiki.archlinux.org/index.php/Rofi)**                 | Run Dialog               |
-| **[scrot](https://wiki.archlinux.org/index.php/Screen_capture)**      | Take Screenshot          |
+| Nombre                                                                | Descripción                       |
+| --------------------------------------------------------------------- | --------------------------------- |
+| **[alacritty](https://wiki.archlinux.org/index.php/Alacritty)**       | Emulador de Consola               |
+| **[thunar](https://wiki.archlinux.org/index.php/Thunar)**             | Gestor de archivos grafico        |
+| **[ranger](https://wiki.archlinux.org/index.php/Ranger)**             | Gestor de archivos desde Consola  |
+| **[neovim](https://wiki.archlinux.org/index.php/Neovim)**             | Editor de texto basado en Consola |
+| **[rofi](https://wiki.archlinux.org/index.php/Rofi)**                 | Lanzador de Aplicaciónes          |
+| **[scrot](https://wiki.archlinux.org/index.php/Screen_capture)**      | Capturar pantalla                 |
 
