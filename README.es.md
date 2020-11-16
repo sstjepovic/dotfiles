@@ -70,7 +70,7 @@ Cuando finalize la instalación puedes iniciar Nitrogen directamente de tu conso
 
 ![nitrogen](.screenshots/nitrogen.png)
 
-Para que el cambio sea permanente, deberas agregar la siguiente línea a tu archivo ~.xprofile.
+Para que el cambio sea permanente, deberas agregar la siguiente línea a tu archivo ~/.xprofile.
 
 ```bash
 nitrogen --restore &
@@ -123,7 +123,7 @@ Sin embargo, parear dispositivos de forma manual puede resultar tedioso, persona
 sudo pacman -S blueman
 ```
 
-Recuerda iniciar blueman con el sistema, puedes hacerlo agragando la siguiente linea a tu ~.xprofile:
+Recuerda iniciar blueman con el sistema, puedes hacerlo agragando la siguiente linea a tu ~/.xprofile:
 
 ```bash
 blueman-applet &
@@ -133,7 +133,7 @@ blueman-applet &
 
 El archivo xprofile nos permite ejecutar comandos antes que inicie el gestor de ventanas (window manager).
 
-Por ejemplo, si escribimos esta línea en ~.xprofile:
+Por ejemplo, si escribimos esta línea en ~/.xprofile:
 
 ```bash
 cbatticon &
