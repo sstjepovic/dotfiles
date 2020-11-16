@@ -52,7 +52,7 @@ Puedes encontrar la lista completa de atajos de teclado en "~/.config/qtile/conf
 
 ## Útilidades del sistema
 
-Esta seccion contendrá todo el Software basico que utilizo. Ten en cuenta que los cambios que realizes no seran permanentes, a menos que los explicites en el archivo [.xprofile](#xprofile).
+Esta sección contendrá todo el Software basico que utilizo. Ten en cuenta que los cambios que realizes no seran permanentes, a menos que los explicites en el archivo [.xprofile](#xprofile).
 
 ### Wallpaper
 
