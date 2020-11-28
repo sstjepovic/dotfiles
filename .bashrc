@@ -3,7 +3,7 @@
 PS1="\[$(tput setaf 228)\]\u"; 			# Usuario Amarillo
 PS1+="\[$(tput setaf 159)\]@"; 			# @ Celeste
 PS1+="\[$(tput setaf 218)\]\h"; 			# Host Rosado
-PS1+="\[$(tput setaf 141)\] \W$(tput sgr0) -> "; 	# Directorio actual Morado 
+PS1+="\[$(tput setaf 141)\] \W\[$(tput sgr0)\] -> "; 	# Directorio actual Morado 
 export PS1;
 
 # End
