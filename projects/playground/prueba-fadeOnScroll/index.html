@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).scroll(function(){
+         $(".background").css("opacity", 0.5 - $(window).scrollTop() / $(".background").height());
+      });
+    });
+  </script>
+  <title>Home | Prueba</title>
+</head>
+<body>
+  <div class="mainWrapper">
+  	<div class="background"></div>
+	<div class="navBar">
+		<div id="logo">Logo</div>
+		<ul>
+			<li>
+				<a href="#" class="selected">Home</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+  </div>
+  <div class="secondWrapper">
+    <h2>< Hola Mundo /></h2>
+  </div>
+</body>
+</html>
