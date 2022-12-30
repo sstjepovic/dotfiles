@@ -1,6 +1,6 @@
 # Dotfiles
 
-![main](https://github.com/sstjepovic/dotfiles/blob/main/.screenshots/main.png)
+![main](/.screenshots/main.png)
 
 ***Language***
 - [Español](./README.es.md)
