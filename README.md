@@ -1,6 +1,6 @@
 # Dotfiles
 
-![main](./.screenshots/main.png)
+![main](main.png)
 
 ***Language***
 - [Español](./README.es.md)
